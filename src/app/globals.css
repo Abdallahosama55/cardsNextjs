@@ -1,0 +1,122 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Helvetica'), url('/public//fonts/Helvetica.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Helvetica Oblique';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Helvetica Oblique'), url('/public/fonts/Helvetica-Oblique.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Helvetica Compressed';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Helvetica Compressed'), url('/public/fonts/helvetica-compressed-5871d14b6903a.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Helvetica Rounded Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Helvetica Rounded Bold'), url('/public/fonts/helvetica-rounded-bold-5871d05ead8de.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Helvetica'), url('/public/fonts/Helvetica-Bold.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Helvetica Bold Oblique';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Helvetica Bold Oblique'), url('/public/fonts/Helvetica.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Helvetica Light';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Helvetica Light'), url('/public/fonts/helvetica-light-587ebe5a59211.woff') format('woff');
+  }
+/* globals.css */
+body {
+  font-family: 'Helvetica';
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #0000000D;
+}
+
+.layout {
+  display: flex;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #002d72;
+  color: white;
+  padding: 20px;
+  height: 100vh;
+}
+
+.logo {
+  margin-bottom: 20px;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.nav {
+  list-style-type: none;
+  padding: 0;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.nav-item span {
+  margin-left: 10px;
+}
+
+.content {
+  flex-grow: 1;
+  padding: 20px;
+}
+.bg-card {
+  
+  background-image: url('../../public/assets/images/Card.png') !important;
+ background-size: cover;
+}
+.overlaycard{
+  background: linear-gradient(243.94deg, rgba(255, 237, 188, 0.25) -127.03%, rgba(18, 18, 18, 0.25) 100%);
+
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #f1f1f1;
+}
